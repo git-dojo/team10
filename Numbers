@@ -10,7 +10,7 @@
  9abcb
  10abcedf abcb
  11 <-new!
- 12hoge
+ 12hogefuga
 =end
 class Number
   def initialize n
