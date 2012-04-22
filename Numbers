@@ -1,3 +1,4 @@
+=begin
  1(」・ω・)」uh~b
  2(／・ω・)／aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
  3#ab
@@ -10,3 +11,14 @@
  10abcedf abcb
  11 <-new!
  12hoge
+=end
+class Number
+  def initialize n
+    @n = n
+  end
+  def n
+    @n
+  end
+end
+number = Number.new 1
+puts number.n
