@@ -2,7 +2,7 @@
 ```char あああ```として空ファイルへのコミットメッセージを介して会話できます。
 
 function chat {
-  touch "" > chat.txt
+  echo "" > chat.txt
   git add chat.txt
   git commit -m $1
 }
