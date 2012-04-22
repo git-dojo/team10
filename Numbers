@@ -1,25 +1,20 @@
+# encoding: utf-8
+
+# usage: $ ruby Number
+
 description = <<-EOF
- 1(」・ω・)」uh~b?
- 2(／・ω・)／aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab?
- 3#ab?
- 4321234 ?
- 5ab?
- 6ab?
- 7#lorem ipsum dolor sit amet consectetur adipiscing elit b?
- 8a bb?
- 9abcb?
- 10abcedf abcb?
- 11 <-new!?
- 12hogefuga?
+(」・ω・)」uh~b?
+(／・ω・)／aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab?
+ab?
+321234 ?
+ab?
+ab?
+lorem ipsum dolor sit amet consectetur adipiscing elit b?
+a bb?
+abcb?
+0abcedf abcb?
 EOF
 
-class Number
-  def initialize n
-    @n = n
-  end
-  def n
-    @n
-  end
+description.split("\n").each_with_index do |line, i|
+  puts "%3d : %s" % [i + 1, line]
 end
-number = Number.new 1
-puts number.n
