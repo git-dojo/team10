@@ -1,4 +1,4 @@
-=begin
+description = <<-EOF
  1(」・ω・)」uh~b?
  2(／・ω・)／aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab?
  3#ab?
@@ -11,7 +11,8 @@
  10abcedf abcb?
  11 <-new!?
  12hogefuga?
-=end
+EOF
+
 class Number
   def initialize n
     @n = n
