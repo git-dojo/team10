@@ -5,5 +5,4 @@ function chat {
   touch "" > chat.txt
   git add chat.txt
   git commit -m $1
-  git push
 }
