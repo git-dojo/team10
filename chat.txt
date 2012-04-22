@@ -1,0 +1,8 @@
+下記の関数を~/.bashrc に入れると、
+```char あああ```として空ファイルへのコミットメッセージを介して会話できます。
+
+function chat {
+  touch "" > chat.txt
+  git add chat.txt
+  git commit -m $1
+}
