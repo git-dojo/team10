@@ -7,3 +7,4 @@ function chat {
   git commit -m $1
 }
 
+
